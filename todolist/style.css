@@ -1,0 +1,59 @@
+
+.container {
+    max-width: 1000px;
+    margin:  40px auto;
+    background-color: #538d8a;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.title {
+    text-align: center;
+    margin-top: 0;
+    color: #fff;
+    font-size: 40px; 
+}
+
+.main {
+    display: flex;
+    text-align: center; 
+}
+
+.input {
+    width: 700px;
+    padding: 10px; 
+}
+
+.add {
+    margin-left: 20px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.button {
+    margin-left: 20px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.list {
+    padding-left: 10px; 
+}
+
+.list li {
+    border-bottom: 1px solid #000;
+    padding: 5px 0;
+    font-size: 18px;
+    word-break: break-word;
+}
+
+.list li:last-child{
+    border-bottom: none;
+}
+
+.list span {
+    font-size: 15px;
+}
