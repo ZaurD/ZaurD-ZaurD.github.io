@@ -46,21 +46,6 @@ class ToDoListRender{
         main.append(input,addButton, searchButton, allTasksButton, completedTasksButton, tobeDoneButton, clearCompletedButton,  clearAllButton);
         wrapper.append(list)
     }
-
-    displayToDoList(){
-        let displayToDo = '';
-        newToDo.toDos.forEach(function(item, i){
-            displayToDo += ` 
-            <li>
-                <input type='checkbox' id= 'item_${i}' ${item.isDone ? 'checked' : ''}> 
-                <label for= 'item_${i}'>${item.title}</label>
-                <br>
-                <span> Data created: ${item.date}</span>
-            </li>
-            `;
-            list.innerHTML = displayToDo;
-        });
-    }
 }
 
 

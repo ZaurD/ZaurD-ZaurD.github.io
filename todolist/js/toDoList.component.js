@@ -16,7 +16,7 @@ add.addEventListener('click', function(){
     if(!text.value) return;
     newToDo.addToDo(text.value);
     text.value = '';
-    toDoListRender.displayToDoList();
+    newToDo.displayToDoList();
 });
 
 search.addEventListener('click', function(){
@@ -24,7 +24,7 @@ search.addEventListener('click', function(){
     let newArray = newToDo.searchToDo(text.value)
     if(newArray.length > 0){
         newToDo.toDos = newArray;
-        toDoListRender.displayToDoList();
+        newToDo.displayToDoList();
     }
     else alert('Nothing was found!')
     text.value = '';
@@ -32,44 +32,36 @@ search.addEventListener('click', function(){
 
 allTasks.addEventListener('click', function(){
     newToDo.updateToDoList();
-    toDoListRender.displayToDoList();  
+    newToDo.displayToDoList();  
 });
 
 completedTasks.addEventListener('click', function(){
     newToDo.updateToDoList();
-    let newArray = newToDo.completedTasks()
+    let newArray = newToDo.completedTasks();
     if(newArray.length > 0){
         newToDo.toDos = newArray;
-        toDoListRender.displayToDoList();
+        newToDo.displayToDoList();
     }
 });
 
 tobeDone.addEventListener('click', function(){
-    newToDo.toDos = JSON.parse(localStorage.getItem('todo'));
-    let newArray = newToDo.toDos.filter(function (toDo)
-    {
-        return toDo.isDone === false;
-    });
+    newToDo.updateToDoList();
+    let newArray = newToDo.tobeDone();
     if(newArray.length > 0){
         newToDo.toDos = newArray;
-        toDoListRender.displayToDoList();
+        newToDo.displayToDoList();
     }
 });
 
 clearAll.addEventListener("click", function () {
     newToDo.toDos = newToDo.clearAll()
     list.innerHTML = '';
-    toDoListRender.displayToDoList()
+    newToDo.displayToDoList()
 });
 
 clearCompleted.addEventListener("click", function(){
-    let newArray = newToDo.toDos.filter(function (toDo)
-    {
-        return toDo.isDone === false;
-    });
-    newToDo.toDos = newArray;
-    localStorage.setItem("todo", JSON.stringify(newToDo.toDos));
-    toDoListRender.displayToDoList();
+    newToDo.toDos = newToDo.clearCompleted();
+    newToDo.displayToDoList();
 });
 
 list.addEventListener('change', function(event){
@@ -86,11 +78,6 @@ list.addEventListener('change', function(event){
 });
 
 if(localStorage.getItem('todo')){
-    newToDo.toDos = JSON.parse(localStorage.getItem('todo'));
-    toDoListRender.displayToDoList();
+    newToDo.updateToDoList();
+    newToDo.displayToDoList();
 }
-
-if(!localStorage.getItem('todo')){
-    newToDo.toDos = []
-}
-
