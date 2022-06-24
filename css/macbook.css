@@ -1,0 +1,57 @@
+.macbook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    
+    background-image:url(../img/bg/bgdescription.png);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+
+.macbook__content{
+    margin-right: 50px;
+}
+
+.macbook__img img{
+
+    height: 370px;
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px){
+    
+    .macbook__content{
+        margin-right: 30px;
+    }
+    
+    .macbook__img img{
+
+        height: 250px;
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+    .macbook{
+
+        flex-direction: column;
+        background-image: none;
+    }
+
+    .macbook__content{
+
+        margin-right: 25px;
+    }
+    
+    .macbook__img img{
+
+        height: 200px;
+        margin-left: 40px;
+        padding-top: 30px;
+    }
+}

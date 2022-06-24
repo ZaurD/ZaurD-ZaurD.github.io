@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Exo2Bold; 
+    src: url(../fonts/Exo2Bold.ttf);
+}
+@font-face {
+    font-family: Exo2Italic; 
+    src: url(../fonts/Exo2Italic.ttf);
+}
+@font-face {
+    font-family: Exo2Medium; 
+    src: url(../fonts/Exo2Medium.ttf);
+}
+@font-face {
+    font-family: Exo2Regular; 
+    src: url(../fonts/Exo2Regular.ttf);
+}
+@font-face {
+    font-family: Exo2Thin; 
+    src: url(../fonts/Exo2Thin.ttf);
+}
+
+body{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    overflow-x: hidden;
+}
+

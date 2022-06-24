@@ -1,0 +1,14 @@
+.team{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: auto;
+    height: 600px;
+    padding: 30px;
+
+    color: white;
+    font-family: Exo2Medium;
+
+    background-image: url(../img/bg/bgclients.png);
+}

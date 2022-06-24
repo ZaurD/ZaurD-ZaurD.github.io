@@ -1,0 +1,24 @@
+.partners-list{
+    width: 90vw;
+    height: 150px;
+    position: absolute;
+    margin-top: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.partners-list__logo{
+    display: flex;
+    height: 100px;
+    width: 15vw;
+    margin: 0 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1023px){
+
+    .partners-list__logo img{
+        width: 80px;
+    }
+}

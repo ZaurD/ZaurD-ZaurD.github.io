@@ -1,0 +1,60 @@
+.teammate{
+    margin: 0 20px;
+    width: 370px;
+    text-align: center;
+}
+.teammate__photo{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: rgb(66,73,82);
+    margin-top: 80px;
+}
+
+.teammate__name{
+    margin-bottom: 5px;
+}
+.teammate__position{
+    color:  #ff6d6d;
+    margin-top: 0;
+    font-size: 15px;
+    
+}
+.teammate__description{
+    font-family: Exo2Italic;
+    color: grey;
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px){
+    
+    .teammate__description{
+        font-size: 15px;
+    }
+
+    .teammate__name{
+        font-size: 20px;
+    }
+
+    .teammate__photo{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    .teammate__description{
+        font-size: 13px;
+    }
+
+    .teammate__name{
+        font-size: 18px;
+    }
+
+    .teammate__photo{
+        width: 45px;
+        height: 45px;
+    }
+}
+
+

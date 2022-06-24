@@ -1,0 +1,33 @@
+.info{
+    display: flex;
+
+    width:100%;
+    height: 600px;
+}
+
+.info__content{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 600px;
+}
+ 
+.info__background{
+    width: 40%;
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px){
+
+    .info__background{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    .info__background{
+        display: none;
+        width: 0;
+    }
+}
