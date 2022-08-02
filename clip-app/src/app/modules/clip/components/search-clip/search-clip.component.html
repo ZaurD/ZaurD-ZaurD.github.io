@@ -1,0 +1,21 @@
+<div class="search-clip">
+  <div class="search-clip__container">
+    <h2 class="search-clip__title">
+      Use Clip Search Service by singer and song title
+    </h2>
+    <form class="search-clip__form" action="">
+      <label for="Artist">Singer</label>
+      <input #searchText type="text" placeholder="type singer name" required />
+      <label for="Song">Song</label>
+      <input #searchSong type="text" placeholder="type song title" required />
+      <button class="btn" (click)="searchClip()">Search</button>
+    </form>
+    <iframe
+      class="search-clip__player"
+      [src]="urlSafe"
+      allow="autoplay"
+      allowfullscreen
+    ></iframe>
+    <h3 class="search-clip__subtitle" *ngIf="videoId">video ID: {{ videoId }}</h3>
+  </div>
+</div>

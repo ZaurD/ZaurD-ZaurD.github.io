@@ -1,0 +1,12 @@
+.about {
+  margin: 50px 100px;
+
+  &__title {
+    text-align: center;
+  }
+  &__text {
+    line-height: 30px;
+    margin: 30px 0;
+    font-size: 22px;
+  }
+}

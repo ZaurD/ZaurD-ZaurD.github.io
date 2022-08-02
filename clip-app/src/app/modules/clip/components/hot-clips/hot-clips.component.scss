@@ -1,0 +1,14 @@
+.hot-clips {
+    &__title {
+      text-align: center;
+      letter-spacing: 2px;
+    }
+    &__tile {
+      width: 100%;
+      margin: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+    }
+  }
+  

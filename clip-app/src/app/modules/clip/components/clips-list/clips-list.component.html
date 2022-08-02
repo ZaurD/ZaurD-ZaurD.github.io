@@ -1,0 +1,26 @@
+<div class="clip-list">
+  <div class="clip-list__tile">
+    <app-favorite-clip
+      *ngFor="let clip of clips"
+      [id]="clip.id"
+      [singer]="clip.singer"
+      [song]="clip.song"
+      (remove)="removeClip(clip.id)"
+      (select)="selectClip(clip.id)"
+      [class.clip-list__selected]="clip.id === selectedClip?.id"
+    >
+    </app-favorite-clip>
+  </div>
+  <div class="clip-list__player" *ngIf="selectedClip; else imageblock">
+    <iframe
+      [src]="urlSafe"
+      frameborder="0"
+      style="width: 750px; height: 430px"
+      allow="autoplay"
+      allowfullscreen
+    ></iframe>
+  </div>
+  <ng-template #imageblock>
+    <img class="clip-list__img" src="/assets/img/icone-video-violette.png" alt="player" />
+  </ng-template>
+</div>

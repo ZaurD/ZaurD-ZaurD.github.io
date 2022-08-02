@@ -1,0 +1,14 @@
+<div class="hot-clips">
+    <h3 class="hot-clips__title">Top POP Hits 2022 </h3>
+    <div class="hot-clips__tile">
+      <app-clip
+        *ngFor="let clip of clips"
+        [imageUrl]="clip.image"
+        [id]="clip.id"
+        [singer]="clip.singer"
+        [song]="clip.song"
+        [videoUrl]="clip.video"
+      >
+      </app-clip>
+    </div>
+  </div>

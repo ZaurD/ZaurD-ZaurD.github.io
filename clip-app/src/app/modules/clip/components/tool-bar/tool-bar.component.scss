@@ -1,0 +1,10 @@
+.tool-bar {
+  display: flex;
+  margin: 10px;
+  width: 50%;
+  height: 65px;
+
+  &__logo {
+    margin-left: 550px;
+  }
+}
