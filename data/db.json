@@ -1,167 +1,72 @@
-{
-  "hotclips": [
-    {
-      "singer": "Taylor Swift",
-      "song": "Willow",
-      "image": "https://m.media-amazon.com/images/M/MV5BNmJlM2Q4ODEtYTE0Yy00OThhLWE5MjYtOWUxMWU5MWJkOTk0XkEyXkFqcGdeQXVyMTI3MTUzNDA2._V1_.jpg",
-      "video": "https://www.youtube.com/embed/RsEZmictANA?autoplay=1&mute=0&controls=0",
-      "id": 10001
-    },
-    {
-      "singer": "Future ft. Drake ",
-      "song": "Life Is Good",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMMQQfoRqZO3ktAfhJ8oOmrz3bskWX0GaBUybnjZPq4kib02QKjXBrfq9gCgn-z3Xqgk&usqp=CAU",
-      "video": "https://www.youtube.com/embed/l0U7SxXHkPY?autoplay=1&mute=0&controls=0",
-      "id": 10002
-    },
-    {
-      "singer": "The Weeknd",
-      "song": "Save Your Tears",
-      "image": "https://i1.sndcdn.com/artworks-EqNNGWdsDzY4LNlj-OnYtaw-t500x500.jpg",
-      "video": "https://www.youtube.com/embed/XXYlFuWEuKI?autoplay=1&mute=0&controls=0",
-      "id": 10003
-    },
-    {
-      "singer": "Dua Lipa ft. DaBaby ",
-      "song": "Levitating Featuring",
-      "image": "https://i1.sndcdn.com/artworks-YL3ua1FAzIzzSk0e-OWj0qw-t500x500.jpg",
-      "video": "https://www.youtube.com/embed/TUVcZfQe-Kw?autoplay=1&mute=0&controls=0",
-      "id": 10004
-    },
-    {
-      "singer": "Little Mix",
-      "song": "Sweet Melody",
-      "image": "https://i1.sndcdn.com/artworks-AzdzKlb7XrYz99sr-DehoMQ-t500x500.jpg",
-      "video": "https://www.youtube.com/embed/r4P-WOOUPk4?autoplay=1&mute=0&controls=0",
-      "id": 10005
-    },
-    {
-      "singer": "Giveon",
-      "song": "Heartbreak Anniversary",
-      "image": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/giveon-heartbreak-anniversary-ali-usman-wahyu-hidayat.jpg",
-      "video": "https://www.youtube.com/embed/uWRlisQu4fo?autoplay=1&mute=0&controls=0",
-      "id": 10006
-    },
-    {
-      "singer": "Tom Grennan",
-      "song": "Little Bit of Love",
-      "image": "https://i1.sndcdn.com/artworks-MeitQSs66CeMzB68-7h9vcg-t500x500.jpg",
-      "video": "https://www.youtube.com/embed/SsdkvYdSzlg?autoplay=1&mute=0&controls=0",
-      "id": 10007
-    },
-    {
-      "singer": "Olivia Rodrigo",
-      "song": "Drivers license",
-      "image": "https://i1.sndcdn.com/artworks-y6gNskVgAg9I0aXa-suEQxg-t500x500.jpg",
-      "video": "https://www.youtube.com/embed/ZmDBbnmKpqQ?autoplay=1&mute=0&controls=0",
-      "id": 10008
-    },
-    {
-      "singer": "Taylor Swift",
-      "song": "Cardigan",
-      "image": "https://i.pinimg.com/originals/21/b2/0f/21b20fe7009737ec713de738de993a73.jpg",
-      "video": "https://www.youtube.com/embed/r4P-WOOUPk4?autoplay=1&mute=0&controls=0",
-      "id": 10009
-    },
-    {
-      "singer": "Shawn Mendes, Camila Cabello",
-      "song": "Señorita",
-      "image": "https://i1.sndcdn.com/artworks-000564326381-7xja1b-t500x500.jpg",
-      "video": "https://www.youtube.com/embed/Pkh8UtuejGw?autoplay=1&mute=0&controls=0",
-      "id": 10010
-    }
-  ],
-  "myplaylist": [
-    {
-      "singer": "Madonna",
-      "song": "Frozen",
-      "image": "",
-      "video": "https://www.youtube.com/embed/XS088Opj9o0?autoplay=1&mute=0&controls=0",
-      "id": 3812
-    },
-    {
-      "singer": "Beyonce ",
-      "song": "Halo",
-      "image": "",
-      "video": "https://www.youtube.com/embed/bnVUHWCynig?autoplay=1&mute=0&controls=0",
-      "id": 5389
-    },
-    {
-      "singer": "LP",
-      "song": "Lost On You",
-      "image": "",
-      "video": "https://www.youtube.com/embed/fD2UExUhq-s?autoplay=1&mute=0&controls=0",
-      "id": 7780
-    },
-    {
-      "singer": "Rag'n'Bone Man",
-      "song": "Human ",
-      "image": "",
-      "video": "https://www.youtube.com/embed/L3wKzyIN1yk?autoplay=1&mute=0&controls=0",
-      "id": 5104
-    },
-    {
-      "singer": "EMIN feat. JONY",
-      "song": "Камин ",
-      "image": "",
-      "video": "https://www.youtube.com/embed/6SEr1XcZG4M?autoplay=1&mute=0&controls=0",
-      "id": 8193
-    },
-    {
-      "singer": "Eminem",
-      "song": "Lose Yourself ",
-      "image": "",
-      "video": "https://www.youtube.com/embed/_Yhyp-_hX2s?autoplay=1&mute=0&controls=0",
-      "id": 1813
-    },
-    {
-      "singer": "Imagine Dragons",
-      "song": "Thunder",
-      "image": "",
-      "video": "https://www.youtube.com/embed/fKopy74weus?autoplay=1&mute=0&controls=0",
-      "id": 9004
-    },
-    {
-      "singer": "Sia",
-      "song": "Chandelier ",
-      "image": "",
-      "video": "https://www.youtube.com/embed/2vjPBrBU-TM?autoplay=1&mute=0&controls=0",
-      "id": 6123
-    },
-    {
-      "singer": "Nelly Furtado",
-      "song": "Say It Right ",
-      "image": "",
-      "video": "https://www.youtube.com/embed/6JnGBs88sL0?autoplay=1&mute=0&controls=0",
-      "id": 5640
-    },
-    {
-      "singer": "Sia",
-      "song": "Unstoppable",
-      "image": "",
-      "video": "https://www.youtube.com/embed/YaEG2aWJnZ8?autoplay=1&mute=0&controls=0",
-      "id": 6314
-    },
-    {
-      "singer": "Sugababes ",
-      "song": "Stronger",
-      "image": "",
-      "video": "https://www.youtube.com/embed/SQ7iZ-cxyA0?autoplay=1&mute=0&controls=0",
-      "id": 2681
-    },
-    {
-      "singer": "Rihanna ft. JAY-Z",
-      "song": "Umbrella",
-      "image": "",
-      "video": "https://www.youtube.com/embed/CvBfHwUxHIk?autoplay=1&mute=0&controls=0",
-      "id": 478
-    },
-    {
-      "singer": "Alicia Keys",
-      "song": "If I Ain't Got You",
-      "image": "",
-      "video": "https://www.youtube.com/embed/Ju8Hr50Ckwk?autoplay=1&mute=0&controls=0",
-      "id": 8176
-    }
-  ]
-}
+[
+  {
+    "singer": "Taylor Swift",
+    "song": "Willow",
+    "image": "https://m.media-amazon.com/images/M/MV5BNmJlM2Q4ODEtYTE0Yy00OThhLWE5MjYtOWUxMWU5MWJkOTk0XkEyXkFqcGdeQXVyMTI3MTUzNDA2._V1_.jpg",
+    "video": "https://www.youtube.com/embed/RsEZmictANA?autoplay=1&mute=0&controls=0",
+    "id": 10001
+  },
+  {
+    "singer": "Future ft. Drake ",
+    "song": "Life Is Good",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMMQQfoRqZO3ktAfhJ8oOmrz3bskWX0GaBUybnjZPq4kib02QKjXBrfq9gCgn-z3Xqgk&usqp=CAU",
+    "video": "https://www.youtube.com/embed/l0U7SxXHkPY?autoplay=1&mute=0&controls=0",
+    "id": 10002
+  },
+  {
+    "singer": "The Weeknd",
+    "song": "Save Your Tears",
+    "image": "https://i1.sndcdn.com/artworks-EqNNGWdsDzY4LNlj-OnYtaw-t500x500.jpg",
+    "video": "https://www.youtube.com/embed/XXYlFuWEuKI?autoplay=1&mute=0&controls=0",
+    "id": 10003
+  },
+  {
+    "singer": "Dua Lipa ft. DaBaby ",
+    "song": "Levitating Featuring",
+    "image": "https://i1.sndcdn.com/artworks-YL3ua1FAzIzzSk0e-OWj0qw-t500x500.jpg",
+    "video": "https://www.youtube.com/embed/TUVcZfQe-Kw?autoplay=1&mute=0&controls=0",
+    "id": 10004
+  },
+  {
+    "singer": "Little Mix",
+    "song": "Sweet Melody",
+    "image": "https://i1.sndcdn.com/artworks-AzdzKlb7XrYz99sr-DehoMQ-t500x500.jpg",
+    "video": "https://www.youtube.com/embed/r4P-WOOUPk4?autoplay=1&mute=0&controls=0",
+    "id": 10005
+  },
+  {
+    "singer": "Giveon",
+    "song": "Heartbreak Anniversary",
+    "image": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/giveon-heartbreak-anniversary-ali-usman-wahyu-hidayat.jpg",
+    "video": "https://www.youtube.com/embed/uWRlisQu4fo?autoplay=1&mute=0&controls=0",
+    "id": 10006
+  },
+  {
+    "singer": "Tom Grennan",
+    "song": "Little Bit of Love",
+    "image": "https://i1.sndcdn.com/artworks-MeitQSs66CeMzB68-7h9vcg-t500x500.jpg",
+    "video": "https://www.youtube.com/embed/SsdkvYdSzlg?autoplay=1&mute=0&controls=0",
+    "id": 10007
+  },
+  {
+    "singer": "Olivia Rodrigo",
+    "song": "Drivers license",
+    "image": "https://i1.sndcdn.com/artworks-y6gNskVgAg9I0aXa-suEQxg-t500x500.jpg",
+    "video": "https://www.youtube.com/embed/ZmDBbnmKpqQ?autoplay=1&mute=0&controls=0",
+    "id": 10008
+  },
+  {
+    "singer": "Taylor Swift",
+    "song": "Cardigan",
+    "image": "https://i.pinimg.com/originals/21/b2/0f/21b20fe7009737ec713de738de993a73.jpg",
+    "video": "https://www.youtube.com/embed/r4P-WOOUPk4?autoplay=1&mute=0&controls=0",
+    "id": 10009
+  },
+  {
+    "singer": "Shawn Mendes, Camila Cabello",
+    "song": "Señorita",
+    "image": "https://i1.sndcdn.com/artworks-000564326381-7xja1b-t500x500.jpg",
+    "video": "https://www.youtube.com/embed/Pkh8UtuejGw?autoplay=1&mute=0&controls=0",
+    "id": 10010
+  }
+]
