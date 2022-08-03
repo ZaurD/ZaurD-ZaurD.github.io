@@ -1,0 +1,93 @@
+ [
+    {
+      "singer": "Madonna",
+      "song": "Frozen",
+      "image": "",
+      "video": "https://www.youtube.com/embed/XS088Opj9o0?autoplay=1&mute=0&controls=0",
+      "id": 3812
+    },
+    {
+      "singer": "Beyonce ",
+      "song": "Halo",
+      "image": "",
+      "video": "https://www.youtube.com/embed/bnVUHWCynig?autoplay=1&mute=0&controls=0",
+      "id": 5389
+    },
+    {
+      "singer": "LP",
+      "song": "Lost On You",
+      "image": "",
+      "video": "https://www.youtube.com/embed/fD2UExUhq-s?autoplay=1&mute=0&controls=0",
+      "id": 7780
+    },
+    {
+      "singer": "Rag'n'Bone Man",
+      "song": "Human ",
+      "image": "",
+      "video": "https://www.youtube.com/embed/L3wKzyIN1yk?autoplay=1&mute=0&controls=0",
+      "id": 5104
+    },
+    {
+      "singer": "EMIN feat. JONY",
+      "song": "Камин ",
+      "image": "",
+      "video": "https://www.youtube.com/embed/6SEr1XcZG4M?autoplay=1&mute=0&controls=0",
+      "id": 8193
+    },
+    {
+      "singer": "Eminem",
+      "song": "Lose Yourself ",
+      "image": "",
+      "video": "https://www.youtube.com/embed/_Yhyp-_hX2s?autoplay=1&mute=0&controls=0",
+      "id": 1813
+    },
+    {
+      "singer": "Imagine Dragons",
+      "song": "Thunder",
+      "image": "",
+      "video": "https://www.youtube.com/embed/fKopy74weus?autoplay=1&mute=0&controls=0",
+      "id": 9004
+    },
+    {
+      "singer": "Sia",
+      "song": "Chandelier ",
+      "image": "",
+      "video": "https://www.youtube.com/embed/2vjPBrBU-TM?autoplay=1&mute=0&controls=0",
+      "id": 6123
+    },
+    {
+      "singer": "Nelly Furtado",
+      "song": "Say It Right ",
+      "image": "",
+      "video": "https://www.youtube.com/embed/6JnGBs88sL0?autoplay=1&mute=0&controls=0",
+      "id": 5640
+    },
+    {
+      "singer": "Sia",
+      "song": "Unstoppable",
+      "image": "",
+      "video": "https://www.youtube.com/embed/YaEG2aWJnZ8?autoplay=1&mute=0&controls=0",
+      "id": 6314
+    },
+    {
+      "singer": "Sugababes ",
+      "song": "Stronger",
+      "image": "",
+      "video": "https://www.youtube.com/embed/SQ7iZ-cxyA0?autoplay=1&mute=0&controls=0",
+      "id": 2681
+    },
+    {
+      "singer": "Rihanna ft. JAY-Z",
+      "song": "Umbrella",
+      "image": "",
+      "video": "https://www.youtube.com/embed/CvBfHwUxHIk?autoplay=1&mute=0&controls=0",
+      "id": 478
+    },
+    {
+      "singer": "Alicia Keys",
+      "song": "If I Ain't Got You",
+      "image": "",
+      "video": "https://www.youtube.com/embed/Ju8Hr50Ckwk?autoplay=1&mute=0&controls=0",
+      "id": 8176
+    }
+]
