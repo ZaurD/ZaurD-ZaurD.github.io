@@ -68,5 +68,19 @@
     "image": "https://i1.sndcdn.com/artworks-000564326381-7xja1b-t500x500.jpg",
     "video": "https://www.youtube.com/embed/Pkh8UtuejGw?autoplay=1&mute=0&controls=0",
     "id": 10010
+  },
+    {
+    "singer": "Imagine dragons",
+    "song": "Sharks",
+    "image": "https://pbs.twimg.com/media/FWBLKX-VUAAFD9L.jpg",
+    "video": "https://www.youtube.com/embed/Te3_VlimRw0?autoplay=1&mute=0&controls=0",
+    "id": 10011
+  },
+  {
+    "singer": "Inna",
+    "song": "Maza",
+    "image": "https://i1.sndcdn.com/artworks-GUOM7nUhYT4vFUtD-fczA5g-t500x500.jpg",
+    "video": "https://www.youtube.com/embed/m_W5-0EY8Bk?autoplay=1&mute=0&controls=0",
+    "id": 10012
   }
 ]
